@@ -9,5 +9,5 @@ namespace CustomAttributes.Runtime.Attributes
     /// <remarks>
     /// Usage: [InspectorReadOnly] private string myField;
     /// </remarks>
-    internal sealed class InspectorReadOnlyAttribute : PropertyAttribute { }
+    public sealed class InspectorReadOnlyAttribute : PropertyAttribute { }
 }
